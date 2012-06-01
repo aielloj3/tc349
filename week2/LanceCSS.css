@@ -1,0 +1,63 @@
+<html>
+<head>
+<style type="text/css">
+
+nav[role="navigation"] ul {
+	float: left;
+	width: 50em;
+	margin: 0;
+	padding: 1em 0 0;
+	list-style: none;
+	background: #666;
+	}
+nav[role="navigation"] li {
+	float: left;
+	margin: 0 1px 0 0;
+	padding: 0;
+	font-family: "Lucida Grande", sans serif;
+	font-size: 80%;
+	}
+nav[role="navigation"] ul li a {
+	float: left;
+	display: block;
+	margin: 0;
+	padding: .5em 1em;
+	color: #333;
+	text-decoration: none;
+	background: #ccc;
+	border: 1px solid #9B8748;
+	border-bottom: none;
+	background: rgb(231,212,154); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(231,212,154,1) 0%, rgba(255,230,169,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(231,212,154,1)), color-stop (100%,rgba(255,230,169,1))); /* Chrome,Safari+ */
+	background: -webkit-linear-gradient(top,rgba(231,212,154,1) 0%,rgba(255,230,169,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(231,212,154,1) 0%,rgba(255,230,169,1) 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, rgba(231,212,154,1) 0%,rgba(255,230,169,1) 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7d49a' , endColorstr='#ffe6a9' , GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, rgba(231,212,154,1) 0%,rgba(255,230,169,1) 100%); /*W3C */
+	}
+	
+nav[role="navigation"] ul li a:hover, body#intro #t-intro a {
+	color: #333;
+	padding-bottom: 5px;
+	borde3r-color: #727377;
+	background: rgb(224,226,238); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(224,226,238,1) 0%, rgba(255,255,255,1) 100%); /*FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(224,226,238,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,rgba(224,226,238,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(224,226,238,1) 0%,rgba(255,255,255,1) 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, rgba(224,226,238,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, rgba(224,226,238,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+	}
+
+</style>
+</head>
+</html><nav role="navigation">
+<ul>
+	<li id="t-intro"><a href="/">Introduction</a></li>
+	<li id="t-about"><a href="about.html">About Lance</a></li>
+	<li id="t-news"><a href="news.html">News &amp; Events</a></li>
+	<li id="t-sponsors"><a href="sponsors.html">Sponsors</a></li>
+	</ul>
+</nav>
